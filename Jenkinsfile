@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('run') {
+        stage('test') {
             steps {
                 echo 'This is run step'
                 sh 'python --version'
